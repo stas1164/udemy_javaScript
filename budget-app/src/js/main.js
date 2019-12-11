@@ -9,7 +9,6 @@ let budget = document.querySelectorAll("div[class*=-value]"),
     year = document.querySelector('.year-value');
     month = document.querySelector('.month-value');
     day = document.querySelector('.day-value');
-   
 
 let expenses_item_btn = btn_arr[0],
     optionalexpenses_btn = btn_arr[1],
@@ -30,3 +29,4 @@ console.log(per);
 console.log(year);
 console.log(month);
 console.log(day);
+
